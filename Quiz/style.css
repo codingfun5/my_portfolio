@@ -1,0 +1,94 @@
+
+body {
+    background-color: #657fa7;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #c78ce0 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+form {
+    background-color: #fff;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    overflow: hidden;
+}
+.btn {
+    background-color: #af58d4;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 10px;
+}
+label {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.question {
+    margin-top: 30px;
+}
+.one, .two, .three, .four, .five {
+    padding: 30px;
+}
+#disp {
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media all and (max-width: 800px){
+   
+    form {
+        width: 394px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding: 93px;
+        overflow: hidden;
+    }
+    body {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 119vh;
+       
+    }
+    }
+@media all and (max-width: 480px){
+   
+    form {
+        width: 394px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding: 14px;
+        overflow: hidden;
+    }
+    body {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 130vh;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    }
+    @media all and (max-width: 280px){
+   
+       
+        body {
+            
+            height: 116vh;
+            
+        }
+        }
+           

@@ -1,0 +1,114 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1611765083444-a3ce30f1c885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(134, 75, 75);
+}
+ #container {
+    background-color: rgb(223, 174, 174);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: white;
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 20px;
+    padding: 20px;
+ }
+ h1 {
+    font-family: 'IBM Plex Serif', serif;
+    color: #db6b7a;
+    align-self: center;
+ }
+ input {
+    font-family: 'IBM Plex Serif', serif; 
+    padding: 5px;
+ }
+ #addTip {
+    background-color: #9eccc1;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'IBM Plex Serif', serif; 
+ }
+ #btn {
+    padding: 15px;
+    background-color: #f7a9c3;
+    font-family: 'IBM Plex Serif', serif; 
+    border: none;
+    border-radius:10px;
+    margin-top: 10px;
+ }
+ #tip {
+    font-family: 'IBM Plex Serif', serif; 
+    display: none;
+
+ }
+ #showTotalAmountToPay {
+    display: flex;
+ }
+ #billSplit, #totalTip, #totalAmount {
+    
+    font-family: 'IBM Plex Serif', serif; 
+    background-color: #9eccc1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+
+ }
+ @media all and (max-width: 800px) {
+   
+    #container {
+        width: 360px;
+        height: 725px;  
+    }
+    form {
+       
+        margin-left: 2px;
+        padding: 20px;
+     }
+     #showTotalAmountToPay {
+        display: flex;
+     }
+     #billSplit, #totalTip, #totalAmount {
+    
+       flex-direction: row;
+       margin: 5px;
+        margin-right: 3px;
+        padding: 15px;
+       
+    
+     }
+     h1 {
+        font-size: 20px;
+     }
+  }
+  @media all and (max-width: 500px) {
+    #container {
+        width: 280px;
+        height: 700px; 
+  
+    }  
+    #billSplit, #totalTip, #totalAmount {
+    
+        flex-direction: row;
+        margin: 0px;
+         margin-right: 3px;
+         padding: 3px;
+         }
+      h1 {
+        font-size: 15px;
+     }
+     p, span {
+        font-size: 15px;
+    }
+   
+  }

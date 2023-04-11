@@ -1,0 +1,62 @@
+.header, .container {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+    background: linear-gradient(to left, #3bc229, #e6cd5d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.inputField {
+    padding: 10px;
+    width: 40%;
+    border: none;
+}
+.btn {
+    padding: 20px;
+    background: #0dc21c;
+    border: none;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1614145121029-83a9f7b68bf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #0dc21c;
+}
+.ordersAdded {
+    background: #0dc21c;
+    list-style-type: none;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid #974793;
+}
+
+.ordersContainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.ordersCompleted {
+    background: #8fd9a8;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 2s ease;
+
+}
+@media all and(max-width: 800px){
+    h1{
+        font-size: 30px;
+    }
+}
+@media all and(max-width: 500px){
+    h1{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,46 @@
+.nav {
+    background-color: #8B9A46;
+}
+.fw-light {
+    color: #8B9A46;
+}
+
+
+
+.sum, .up, h4 {
+    color: #8B9A46;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+}
+.keto {
+  
+    font-size: 35px;
+   
+background: linear-gradient(to left, #8B9A46, #d80544);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+
+.btn-color {
+    background-color: #8B9A46;
+}
+
+.hover-image-scale {
+    display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+  }
+  .hover-image-scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+  }
+  .hover-image-scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+
+
+  
+

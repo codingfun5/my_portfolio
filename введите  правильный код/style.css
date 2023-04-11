@@ -1,0 +1,68 @@
+body {
+    
+  background-image: url(https://images.unsplash.com/photo-1517439270744-8d9287c2f8f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1103&q=80);
+  background: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 30px;
+ 
+}
+
+
+.phone {
+display: flex;
+justify-content: center;
+margin-top: 71px;
+}
+#container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-right: 7px;
+background-color: white;
+border:  2px solid black;
+border-radius: 15px;
+width: 150px;
+height: 280px;
+padding: 10px;
+}
+#btn {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  width: 120px;
+  
+ background-color:  rgb(77, 136, 214);
+ color: white;
+ font-family: 'Raleway', sans-serif;
+}
+  #guess {
+    padding: 10px;
+    border-radius: 10px;
+   border-color: rgb(77, 136, 214);
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+  }
+  h3 {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .unlock {
+    color: rgb(77, 136, 214);
+  }
+  @media all and (max-width: 800px) {
+   
+    
+  }
+  @media all and (max-width: 500px) {
+    
+   
+  }

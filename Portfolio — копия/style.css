@@ -1,0 +1,104 @@
+h1 {
+    color: rgb(159, 229, 238);
+    font-family: 'Montserrat', sans-serif;
+   
+}
+p{
+    font-size: 25px;
+    color: rgb(21, 186, 207);
+    font-family: 'Montserrat', sans-serif;  
+}
+text{
+    color: rgb(21, 186, 207);
+    font-family: 'Montserrat', sans-serif;   
+}
+ #par {
+    font-family: 'Montserrat', sans-serif;
+        color: rgb(159, 229, 238);
+        margin-top: 100px;
+        margin-bottom: 200px;
+       
+} 
+#illustration{
+    border-radius: 90px 0;
+    box-shadow: 5px 3px 7px 2px rgb(159, 229, 238);
+    
+       
+        } 
+
+#logo{
+    border-radius: 40px;
+    box-shadow: 5px 3px 7px 2px rgb(159, 229, 238);
+}
+.clipart{
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    }
+label {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 20px;
+    color: rgb(159, 229, 238);
+}
+.text-input {
+background-color: #c7dbdd;
+border-radius: 10px; 
+padding: 12px 20px;
+}
+
+.btnbtn-write {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 40px;
+    background-color: #70a1ce; 
+    padding: 12px;
+    border-radius: 10px;  
+}
+
+.materials{
+    font-size: 15px;
+}
+
+.falling {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url("photo-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin: 10px 0 20px 0;
+}
+.falling canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    mix-blend-mode: color-dodge;
+}
+
+
+
+
+
+
+@media all and (max-width: 800px) {
+   
+    #par { font-size: 60px; 
+        margin-top: 100px;
+    } 
+    p{
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 500px) {
+    #par { font-size: 30px;
+        margin-top: 30px;
+ 
+    }
+    p{
+        font-size: 15px;
+    }
+}

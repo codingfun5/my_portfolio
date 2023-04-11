@@ -1,0 +1,260 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1603793303277-ed67787545e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FudGF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+
+.heading {
+    display: flex;
+    justify-content: center; 
+}
+h1 {
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, 0.9); 
+    padding: 20px;
+    border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#myButton {
+    margin-left: 100px;
+    border: none;
+    z-index: 3;
+}
+.btn {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cdn.glitch.com/cf756477-f7e1-4451-955e-47ce9ad6a922%2Fplay-button.png?v=1633081140564);
+    background-size: contain;
+    border-radius: 50%;
+    outline: none;
+}
+
+.btn-pause {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cdn.glitch.com/cf756477-f7e1-4451-955e-47ce9ad6a922%2Fpause.png?v=1633081172440);
+    background-size: contain;
+    border-radius: 50%;
+    outline: none;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.christmas {
+    background-color: rgba(251, 248, 249, 0.82);
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;  
+}
+.days, .hours, .minutes, .seconds {
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 40px;
+}
+.red {
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    border: none;
+    color: red;
+}
+button {
+    margin-left: 100px;
+    border: none;
+}
+
+.falling {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url("photo-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin: 10px 0 20px 0;
+}
+.falling canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    mix-blend-mode: color-dodge;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 800px) {
+    
+    h1 {
+       font-size: 35px;
+       padding: 5px;
+       margin-top: 430px;
+   }
+    .block {
+        font-size: 40px;
+        height: 200px;
+        width: 130px;
+    }
+
+    #myButton {
+        margin-left: 30px;
+        
+       
+   }
+
+    .btn {
+       width: 60px;
+       height: 60px;
+       
+   }
+    .btn-pause {
+       width: 60px;
+       height: 60px;
+   }
+   
+    body {
+        width: 100%;
+        height: 180px;
+        margin-top: 30px;
+    }
+
+.block {
+       font-size: 10px;
+       height: 140px;
+       width: 100px;
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      
+   }
+
+   h2 {
+       font-size: 15px;
+   }
+   .christmas {
+       
+       height: 180px;
+       width: 120px;
+       margin-top: 20px;
+      margin-left: 2px;
+   }
+  
+   .days, .hours, .minutes, .seconds {
+         
+       font-size: 25px;
+   }
+   
+
+.red {
+   font-size: 20px;
+  
+}
+h3 {
+    
+    font-size: 16px;  
+}
+
+
+
+@media all and (max-width: 500px) {
+    body {
+       width: 100%;
+       height: 200px;
+       margin-top: 30px;
+   }
+
+
+   h1 {
+       font-size: 15px;
+       padding: 5px;
+       margin-top: 130px;
+   }
+
+   #myButton {
+       margin-left: 10px;
+   }
+ 
+   .btn {
+       width: 50px;
+       height: 50px;
+   }
+   
+   .btn-pause {
+       width: 50px;
+       height: 50px;
+   }
+
+  
+   .block {
+       font-size: 10px;
+       height: 90px;
+       width: 70px;
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      
+   }
+
+   h2 {
+       font-size: 15px;
+   }
+   .christmas {
+       
+       height: 90px;
+       width: 60px;
+       margin-top: 20px;
+      margin-left: 2px;
+   }
+  
+   .days, .hours, .minutes, .seconds {
+         
+       font-size: 15px;
+   }
+   
+
+.red {
+   font-size: 20px;
+  
+}
+h3 {
+    
+    font-size: 10px;  
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
